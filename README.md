@@ -1,8 +1,8 @@
 jmx-wizard-nagios allow you to **easily monitor JMX metrics** through **Nagios**.
 
 ## Requirements
-> - Nagios XI
-> - JMX plugin (nagios-jmx-plugin.zip in *requirements/* folder).
+* Nagios XI
+* JMX plugin (nagios-jmx-plugin.zip in *requirements/* folder).
 
 ## Installation
 
@@ -12,19 +12,36 @@ Just **zip** the repo & **upload** and install it through *Admin => Manage Confi
 
 Go to *Configure => Configuration Wizards => JMX Metrics* page :+1:
 
+#### Metrics available
+
+* Memory
+  * Heap Memory Used
+  * Heap Memory Max
+  * Non Heap Memory Used
+  * Non Heap Memory Max
+* Threading
+  * Deamon Thread Count
+  * Peak Thread Count
+  * Thread Count
+  * Total Started Thread Count
+* Operating System :
+  * Max File Descriptor Count
+  * Open File Descriptor Count
+  * System Load Average
+
 ## Contributing
 
 See CONTRIBUTING file.
 
 ## TODO 
 
-> - Reduce code duplication
-> - Serialize data 
-> - Find ```<input type="hidden" ... >``` alternative ($_SESSION[...] ?)
+* Reduce code duplication
+* Serialize data 
+* Find ```<input type="hidden" ... >``` alternative ($_SESSION[...] ?)
 
 ## Credits
 
-> - Nagios :heart:
+* Nagios :heart:
 
 ## Contributor Code of Conduct
 
