@@ -38,6 +38,7 @@ See CONTRIBUTING file.
 * Reduce code duplication
 * Serialize data 
 * Find ```<input type="hidden" ... >``` alternative ($_SESSION[...] ?)
+* Change password type input
 
 ## Credits
 
